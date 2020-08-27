@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style type="text/css">
+body {
+	background-image: url("../lolimgs/0.jpg");
+	background-repeat: no-repeat;
+}
+
+.h_z {
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+.h_z>.h_z_a {
+	position: absolute;
+	margin-left: 70px;
+}
+
+.h_z>.h_z_ul {
+	list-style-type: none;
+	position: absolute;
+	margin-left: 230px;
+	margin-top: 10px;
+}
+
+.h_z>.h_z_ul>li {
+	float: left;
+	margin-right: 70px;
+}
+
+.h_z>.h_z_ul>li>a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-decoration: none;
+}
+
+.h_z_ul_span1 {
+	display: block;
+	color: #fff;
+	font-size: 18px;
+	letter-spacing: 1px;
+}
+
+.h_z_ul_span2 {
+	display: block;
+	color: #aeaeae;
+	font-size: 11px;
+	margin-top: -1px;
+	letter-spacing: 1px;
+}
+
+.h_z>.h_z_ul>li>ul {
+	list-style-type: none;
+}
+
+.h_z>.h_z_ul>li>ul>li {
+	display: block;
+	width: 100%;
+	height: 29px;
+	overflow: hidden;
+	line-height: 29px;
+	color: #e1e1e1;
+	font-size: 14px;
+	text-align: center;
+	margin-left: -35px;
+}
+
+.h_y_div {
+	float: right;
+}
+
+.h_y_div>span {
+	color: #fefefe;
+	font-size: 16px;
+	line-height: 60px;
+	margin-right: 60px;
+}
+
+.h_y_div>span>a {
+	color: #fff3d0;
+}
+
+.h_x {
+	line-height: 460px;
+	margin-left: 700px;
+	font-size: 18px;
+}
+
+.h_x>a {
+	text-decoration: none;
+	color: #EEAD0E;
+}
+</style>
+</head>
+<body>
+
+  <div class="h_z">
+    <!-- 总模块 -->
+    <a href="https://lol.qq.com/main.shtml" class="h_z_a"><img
+      src="../lolimgs/1.jpg"></a>
+    <ul class="h_z_ul" onmouseover="overfn()" onmouseout="outfn()">
+      <li><a href="https://lol.qq.com/data/info-heros.shtml"> <span
+          class="h_z_ul_span1">游戏资料</span> <span class="h_z_ul_span2">GAME
+            INFO</span>
+      </a>
+        <ul>
+          <li>游戏下载</li>
+          <li>新手指引</li>
+          <li>资料库</li>
+          <li>云顶之弈</li>
+          <li>攻略中心</li>
+          <li>开发者基地</li>
+          <li>海克斯战利品库</li>
+          <li>英雄联盟宇宙</li>
+        </ul></li>
+      <li><a> <span class="h_z_ul_span1">商城/合作</span> <span
+          class="h_z_ul_span2">STORE</span>
+      </a>
+        <ul>
+          <li>点卷充值</li>
+          <li>道具城</li>
+          <li>周边商城</li>
+          <li>LOL桌游</li>
+          <li>LOL信用卡</li>
+          <li>网吧特权</li>
+          <li>电竞小说</li>
+        </ul></li>
+      <li><a> <span class="h_z_ul_span1">社区互动</span> <span
+          class="h_z_ul_span2">COMMUNITY</span>
+      </a>
+      <ul>
+          <li>官方社区</li>
+          <li>视频中心</li>
+          <li>官方论坛</li>
+          <li>官方微信</li>
+          <li>官方微博</li>
+          <li>玩家创作馆</li>
+          <li>作者入驻计划</li>
+          <li>玩家服务</li>
+        </ul>
+      </li>
+      <li><a href="https://lpl.qq.com/"> <span
+          class="h_z_ul_span1">赛事官网</span> <span class="h_z_ul_span2">ESPORTS</span>
+      </a>
+      <ul>
+          <li>LPL职业联赛</li>
+          <li>LPL全明星周末</li>
+          <li>全球总决赛</li>
+          <li>全明星赛</li>
+          <li>德玛西亚杯</li>
+          <li>季中冠军赛</li>
+          <li>洲际系列赛</li>
+          <li>全国高校联赛</li>
+        </ul>
+      </li>
+      <li><a> <span class="h_z_ul_span1">自助系统</span> <span
+          class="h_z_ul_span2">ESPORTS</span>
+      </a>
+      <ul>
+          <li>联系客服</li>
+          <li>转区系统</li>
+          <li>封号查询</li>
+          <li>体验服下载</li>
+          <li>信誉分系统</li>
+          <li>服务器状态查询</li>
+          <li>秩序殿堂</li>
+          <li>峡谷之巅</li>
+        </ul>
+      </li>
+    </ul>
+
+    <div class="h_y_div">
+      <span>亲爱的召唤师，欢迎<a href="javascript:T_Login.login()">登录</a></span>
+    </div>
+    <span class="h_x"> <a
+      href="https://lol.qq.com/act/a20200116mechakingdoms/index.html">查看详情</a>
+    </span>
+
+
+  </div>
+
+  <script type="text/javascript" src="../js/jquery-1.4.2.js"></script>
+  <script type="text/javascript">
+			var w = $(window).width();
+			$("body").css("background-size", w + "px");
+			onresize = function() {
+				w = $(window).width();
+				$(body).css("background-size", w + "px");
+			}
+			  
+			 $(".h_z>.h_z_ul>li>ul>li").hide();
+			 function overfn(){
+				 $(".h_z>.h_z_ul>li>ul>li").show();
+			 }
+			 function outfn(){
+				 $(".h_z>.h_z_ul>li>ul>li").hide();
+			 }
+				  
+			  
+			  
+			  
+		</script>
+</body>
+</html>
